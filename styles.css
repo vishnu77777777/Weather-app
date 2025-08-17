@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+            color: #00a2ff;
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 5px 0 5px #fff, 
+            5px 5px 10px #00a2ff, 
+            5px 5px 20px #00a2ff, 
+            5px 5px 40px #00a2ff;
+
+}
+.card{
+    width:90%;
+    max-width: 470px;
+    background:rgb(16, 183, 255);
+    color:#f2e9e9;
+    margin:100px auto  0;
+    border-radius: 20px;
+    border-color: #fff;
+    padding: 80px 40px;
+    text-align: center;
+    align-items: center;
+    
+}
+.search {
+    display: flex;
+    align-items: left;
+    width: 250px;
+    border: 2px solid rgb(248, 245, 245);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px white;
+}
+
+.search input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    outline: none;
+    align-items: left;
+    size: 50em;
+}
+
+.search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.search img {
+    width: 40px;
+    height: 40px;
+}
+.weather-icon{
+    width:170px;
+    margin-top:30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    color: yellow;
+
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+   color:white;
+   
+}
+.weather-icon{
+    width:120px ;
+    height:120px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 20px 5px rgb(255, 255, 255);
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+    
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align:left;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(229, 53, 94)
+
+}
+.error{
+    display: none;
+}
